@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+"title":"Главная"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html', {})
+    <main>
+      @@include('html/_sections/1_main.html', {})
+      @@include('html/_sections/2_show.html', {})
+      @@include('html/_sections/3_pilots.html', {})
+      @@include('html/_sections/4_production.html', {})
+      @@include('html/_sections/5_stendup.html', {})
+      @@include('html/_sections/5_2-stendups.html', {})
+      @@include('html/_sections/6_serials.html', {})
+      @@include('html/_sections/7_pilot.html', {})
+      @@include('html/_sections/8_production2.html', {})
+    </main>
+  </div>
+  @@include('html/footer.html', {})
+  @@include('html/modal.html', {})
+  @@include('html/scripts.html', {})
+</body>
+
+</html>
